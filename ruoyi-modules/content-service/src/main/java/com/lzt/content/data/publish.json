@@ -1,0 +1,69 @@
+{
+  "drama": {
+    "title": "我在回忆里万劫不复",
+    "subTitle": "我在回忆里万劫不复",
+    "cover": "http://192.168.101.200:9000/kcat/2026/01/03/0e04c740-4c6a-4998-8ee3-bc33fa71067b_img.jpg",
+    "poster": "http://192.168.101.200:9000/kcat/2026/01/03/3ed112a8-155e-4c3d-a65c-a2cd28b6da7e_img.jpg",
+    "trailerUrl": "http://192.168.101.200:9000/kcat/2026/01/03/30285b1b-e1f8-4c38-a736-695b3457790e_我在回忆里万劫不复01.dat",
+    "description": "秦见鹿对高冷佛子谢梵声一见钟情，痴恋六年，用尽手段终于如愿以偿成为了谢太太，却成婚两年始终未能圆房，一次偶然的机会，秦见鹿发现，丈夫竟对他没有血缘关系的妹妹有着畸形执念。谢梵声对谢棠梨无底线地纵容偏袒，让秦见鹿彻底心死，签下离婚协议远走德国，与暗恋她十年的沈墨衍开启新恋情，谢梵声却突然发现，秦见鹿才是他心头挚爱。谢梵声在追妻途中逐渐觉醒，却已成彻彻底底的局外人，秦见鹿戴上沈墨衍的钻戒，用新生宣告：真爱无需卑微乞讨，离开错的才能邂逅命定救赎。",
+    "storyLine": "秦见鹿对高冷佛子谢梵声一见钟情，痴恋六年，用尽手段终于如愿以偿成为了谢太太，却成婚两年始终未能圆房，一次偶然的机会，秦见鹿发现，丈夫竟对他没有血缘关系的妹妹有着畸形执念。谢梵声对谢棠梨无底线地纵容偏袒，让秦见鹿彻底心死，签下离婚协议远走德国，与暗恋她十年的沈墨衍开启新恋情，谢梵声却突然发现，秦见鹿才是他心头挚爱。谢梵声在追妻途中逐渐觉醒，却已成彻彻底底的局外人，秦见鹿戴上沈墨衍的钻戒，用新生宣告：真爱无需卑微乞讨，离开错的才能邂逅命定救赎。",
+    "director": "李正",
+    "screenwriter": "王源",
+    "productionCompany": "星空无限",
+    "releaseDate": "2025-12-31T16:00:00.000Z",
+    "totalEpisodes": 70,
+    "language": "zh-CN",
+    "region": "内地",
+    "year": 2026,
+    "quality": "HD",
+    "ageRating": "G",
+    "isFinished": 1,
+    "isVip": 0,
+    "isNew": 1,
+    "isHot": 1,
+    "isRecommended": 1,
+    "status": 1,
+    "auditStatus": 0
+  },
+  "categories": [
+    1,
+    2,
+    4
+  ],
+  "tags": [
+    3,
+    6,
+    5
+  ],
+  "actors": [
+    {
+      "actorId": 1,
+      "actorName": "丁真",
+      "roleName": "尼古丁",
+      "roleType": 1,
+      "sortOrder": 0,
+      "isNewActor": false
+    },
+    {
+      "actorId": "",
+      "actorName": "王源",
+      "roleName": "芙蓉王",
+      "roleType": 1,
+      "sortOrder": 1,
+      "isNewActor": true
+    }
+  ],
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "第一集",
+      "cover": "",
+      "duration": 50,
+      "description": "尼古丁真和芙蓉王源掀起的运动",
+      "videoUrl": "http://192.168.101.200:9000/kcat/2026/01/03/9f6e5801-7c9f-48c5-944a-fb774957c68f_我在回忆里万劫不复02.dat",
+      "isFree": 1,
+      "isTrailer": 0,
+      "coinPrice": 0
+    }
+  ]
+}

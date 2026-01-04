@@ -5,71 +5,69 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-modules</artifactId>
-        <version>${revision}</version>
+        <artifactId>ruoyi-cloud-plus</artifactId>
+        <version>2.4.1</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-
-    <groupId>com.lfy.kcat</groupId>
+    <groupId>com.lzt.content</groupId>
     <artifactId>content-service</artifactId>
 
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-nacos</artifactId>
-        </dependency>
+  <dependencies>
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-nacos</artifactId>
+      </dependency>
 
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-sentinel</artifactId>
-        </dependency>
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-sentinel</artifactId>
+      </dependency>
 
-        <!-- RuoYi Common Log -->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-log</artifactId>
-        </dependency>
+      <!-- RuoYi Common Log -->
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-log</artifactId>
+      </dependency>
 
-        <!-- RuoYi 接口文档 -->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-doc</artifactId>
-        </dependency>
+      <!-- RuoYi 接口文档 -->
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-doc</artifactId>
+      </dependency>
 
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-web</artifactId>
-        </dependency>
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-web</artifactId>
+      </dependency>
 
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-mybatis</artifactId>
-        </dependency>
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-mybatis</artifactId>
+      </dependency>
 
-        <!-- RuoYi 幂等性 -->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-idempotent</artifactId>
-        </dependency>
+      <!-- RuoYi 幂等性 -->
+      <dependency>
+          <groupId>org.dromara</groupId>
+          <artifactId>ruoyi-common-idempotent</artifactId>
+      </dependency>
 
-        <!--       引入minio 对象存储 -->
-        <dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>8.5.13</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-test</artifactId>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>io.minio</groupId>
+          <artifactId>minio</artifactId>
+          <version>8.5.13</version>
+      </dependency>
+  </dependencies>
 
 </project>

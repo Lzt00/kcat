@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzt.content.mapper.DramaActorsMapper">
+
+<!--    <resultMap id="BaseResultMap" type="com.lfy.kcat.content.domain.DramaActors">-->
+<!--            <id property="id" column="id" />-->
+<!--            <result property="dramaId" column="drama_id" />-->
+<!--            <result property="actorId" column="actor_id" />-->
+<!--            <result property="roleName" column="role_name" />-->
+<!--            <result property="roleType" column="role_type" />-->
+<!--            <result property="sortOrder" column="sort_order" />-->
+<!--            <result property="createBy" column="create_by" />-->
+<!--            <result property="updateBy" column="update_by" />-->
+<!--            <result property="createDept" column="create_dept" />-->
+<!--            <result property="createTime" column="create_time" />-->
+<!--    </resultMap>-->
+
+<!--    <sql id="Base_Column_List">-->
+<!--        id,drama_id,actor_id,role_name,role_type,sort_order,-->
+<!--        create_by,update_by,create_dept,create_time-->
+<!--    </sql>-->
+<!--    <select id="getDramaActorInfo" resultType="com.lfy.kcat.content.domain.ActorRoleInfoEntity">-->
+<!--        select a.actor_id,a.actor_name,-->
+<!--               da.role_name,da.role_type,-->
+<!--               a.actor_img avatar-->
+<!--        from drama_actors da-->
+<!--                 left join actors a ON da.actor_id = a.actor_id-->
+<!--        where da.drama_id=#{dramaId}-->
+<!--    </select>-->
+</mapper>
